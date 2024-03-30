@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "musa"
+     bucket = "musa2"
      key = "terraform.tfstate"
      region = "us-east-2"
    }
